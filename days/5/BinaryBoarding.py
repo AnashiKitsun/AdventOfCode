@@ -1,5 +1,4 @@
 # read input into script
-import os
 with open('./input.txt') as f:
     keys = f.readlines()
     keys = [x.strip() for x in keys]
